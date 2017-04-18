@@ -245,7 +245,7 @@
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\log4net.csproj">
+    <ProjectReference Include="..\..\src\log4net.vs2012.csproj">
       <Project>{181fe707-e161-4722-9f38-6aaab6faa106}</Project>
       <Name>log4net</Name>
     </ProjectReference>

@@ -10,3 +10,9 @@ D:\work\实验室\Log4NetDemo\examples\net\2.0\Tutorials\ConsoleApp\cs\src\obj\D
 D:\work\实验室\Log4NetDemo\examples\net\2.0\Tutorials\ConsoleApp\cs\build\debug\ConsoleApp.exe
 D:\work\实验室\Log4NetDemo\examples\net\2.0\Tutorials\ConsoleApp\cs\build\debug\ConsoleApp.pdb
 D:\work\实验室\Log4NetDemo\examples\net\2.0\Tutorials\ConsoleApp\cs\src\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+D:\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\build\debug\ConsoleApp.exe.config
+D:\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\obj\Debug\ConsoleApp.exe
+D:\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\obj\Debug\ConsoleApp.pdb
+D:\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\build\debug\ConsoleApp.exe
+D:\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\build\debug\ConsoleApp.pdb
+D:\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
