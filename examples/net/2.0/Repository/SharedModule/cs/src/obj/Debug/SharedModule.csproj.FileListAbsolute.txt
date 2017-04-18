@@ -1,0 +1,1 @@
+D:\work\实验室\Log4NetDemo\examples\net\2.0\Repository\SharedModule\cs\src\obj\Debug\SharedModule.csprojResolveAssemblyReference.cache

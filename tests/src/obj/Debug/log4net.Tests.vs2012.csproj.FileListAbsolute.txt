@@ -1,0 +1,5 @@
+D:\work\实验室\Log4NetDemo\tests\bin\Debug\log4net.Tests.dll
+D:\work\实验室\Log4NetDemo\tests\bin\Debug\log4net.Tests.pdb
+D:\work\实验室\Log4NetDemo\tests\src\obj\Debug\log4net.Tests.vs2012.csprojResolveAssemblyReference.cache
+D:\work\实验室\Log4NetDemo\tests\src\obj\Debug\log4net.Tests.dll
+D:\work\实验室\Log4NetDemo\tests\src\obj\Debug\log4net.Tests.pdb

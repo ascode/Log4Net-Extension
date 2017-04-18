@@ -1,0 +1,16 @@
+[Header]
+2017-04-18 00:17:01,398 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-18 00:17:01,595 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-18 00:17:02,697 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo()
+   在 ConsoleApp.LoggingExample.Goo()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo()
+   在 ConsoleApp.LoggingExample.Bar()
+   在 ConsoleApp.LoggingExample.Main(String[] args)
+2017-04-18 00:17:02,736 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-18 00:17:02,769 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-18 00:17:02,777 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-18 00:17:02,800 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-18 00:17:02,832 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End

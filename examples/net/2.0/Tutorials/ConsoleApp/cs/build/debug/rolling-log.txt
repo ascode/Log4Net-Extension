@@ -1,0 +1,2 @@
+[Header]
+2017-04-18 13:42:59,246 [1] INFO  ConsoleApp.LoggingExample [(null)] - Application [ConsoleApp] End

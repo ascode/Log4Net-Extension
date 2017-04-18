@@ -1,0 +1,4 @@
+[Header]
+2017-04-18 13:42:14,469 [1] ERROR ConsoleApp.LoggingExample [(null)] - Hey this is an error!
+2017-04-18 13:42:14,505 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] - This should have an NDC message
+[Footer]

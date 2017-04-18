@@ -1,0 +1,11 @@
+[Header]
+2017-04-18 00:17:01,595 [1] DEBUG ConsoleApp.LoggingExample [(null)] - This is a debug message
+2017-04-18 00:17:02,697 [1] ERROR ConsoleApp.LoggingExample [(null)] - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo()
+   在 ConsoleApp.LoggingExample.Goo()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo()
+   在 ConsoleApp.LoggingExample.Bar()
+   在 ConsoleApp.LoggingExample.Main(String[] args)
+[Footer]

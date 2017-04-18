@@ -1,0 +1,1 @@
+D:\work\实验室\Log4NetDemo\examples\net\2.0\Appenders\WmiAppender\cs\src\obj\Debug\WmiAppender.csprojResolveAssemblyReference.cache
