@@ -1,1 +1,2 @@
 D:\work\实验室\Log4NetDemo\examples\net\2.0\Repository\SharedModule\cs\src\obj\Debug\SharedModule.csprojResolveAssemblyReference.cache
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SharedModule\cs\src\obj\Debug\SharedModule.csprojResolveAssemblyReference.cache

@@ -5,7 +5,7 @@
 	log_level nvarchar(45),--自动记录日志的分级
 	logger nvarchar(100),--记录动作现场自动记录的类完全限定名
 	message nvarchar(1000),--采取扩展日志方式的时候自动记录消息类型
-	exception nvarchar(1000),--自动记录的异常信息
+	exception nvarchar(2000),--自动记录的异常信息
 	entity_scheme_name nvarchar(45),--数据表名
 	entity_id nvarchar(100),--数据记录id
 	string_for_old_entity nvarchar(4000),--旧数据（推荐使用json格式存储整条记录）

@@ -678,3 +678,693 @@ System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided
 2017-04-20 13:10:38,674 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
 2017-04-20 13:10:38,736 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
 2017-04-20 13:10:38,811 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Header]
+2017-04-20 13:13:12,389 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:13:12,789 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:13:12,851 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:13:12,882 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:13:12,898 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:13:12,949 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:13:12,990 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:13:13,043 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:13:13,152 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:13:13,174 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:13:13,235 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:13:13,267 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:13:27,950 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:13:28,460 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:13:28,540 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:13:28,564 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:13:28,583 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:13:28,642 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:13:28,710 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:13:28,753 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:13:28,805 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:13:28,835 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:13:28,901 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:13:28,947 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:18:16,427 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:18:17,219 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:18:17,313 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:18:17,352 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:18:17,376 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:18:17,401 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:18:17,544 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:18:17,627 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:18:17,783 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:18:17,803 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:18:17,853 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:18:17,897 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:26:11,113 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:26:11,756 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:26:11,931 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:26:11,956 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:26:12,027 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:26:12,046 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:26:12,095 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:26:12,145 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:26:12,226 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:26:12,254 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:26:12,346 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:26:12,394 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:26:25,500 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:26:28,272 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:26:28,557 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:26:28,824 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:26:29,060 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:26:29,213 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:26:29,307 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:26:29,360 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:26:29,420 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:26:29,440 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:26:29,527 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:26:29,569 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Header]
+2017-04-20 13:29:23,094 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:29:24,415 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:29:24,567 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:29:24,661 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:29:24,786 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:29:24,821 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:29:24,874 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:29:24,980 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:29:25,050 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:29:25,070 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:29:25,149 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:29:25,193 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:29:46,622 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:29:47,121 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:29:47,169 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:29:47,191 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:29:47,208 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:29:47,224 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:29:47,338 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:29:47,412 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:29:47,496 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:29:47,522 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:29:47,569 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:29:47,638 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:30:24,830 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:30:25,675 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:30:25,772 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:30:25,818 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:30:25,848 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:30:25,866 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:30:26,107 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:30:26,232 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:30:26,293 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:30:26,319 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:30:26,396 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:30:26,585 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:37:19,961 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:37:20,387 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:37:20,442 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:37:20,458 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:37:20,468 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:37:20,481 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:37:20,687 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:37:20,727 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:37:20,771 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:37:20,782 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:37:20,816 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:37:20,867 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:37:35,197 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:37:35,733 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:37:35,917 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:37:35,935 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:37:35,946 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:37:35,955 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:37:36,056 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:37:36,097 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:37:36,140 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:37:36,153 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:37:36,188 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:37:36,230 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:39:17,883 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:39:18,447 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:39:18,502 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:39:18,522 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:39:18,536 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:39:18,549 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:39:18,596 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:39:18,638 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:39:18,715 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:39:18,731 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:39:18,770 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:39:18,808 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:43:47,426 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:43:48,792 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:43:49,162 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:43:49,369 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:43:49,617 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:43:49,664 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:43:50,088 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:43:50,138 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:43:50,185 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:43:50,197 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:43:50,235 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:43:50,281 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:44:06,946 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:44:07,684 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:44:07,724 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:44:07,746 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:44:07,758 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:44:07,772 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:44:08,202 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:44:08,400 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:44:08,487 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:44:08,510 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:44:08,556 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:44:08,691 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:44:56,057 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:44:56,851 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:44:57,069 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:44:57,132 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:44:57,163 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:44:57,195 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:44:57,440 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:44:57,565 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:44:57,651 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:44:57,675 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:44:58,101 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:44:58,195 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:45:58,181 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+[Header]
+2017-04-20 13:46:50,691 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:46:51,085 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:46:51,139 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:46:51,166 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:46:51,180 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:46:51,196 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:46:51,251 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:46:51,308 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:46:51,393 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:46:51,423 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:46:51,504 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:46:51,553 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:47:53,032 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:47:54,260 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:47:54,602 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:47:54,655 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:47:54,702 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:47:54,772 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:47:54,960 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:47:55,096 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:47:55,204 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:47:55,298 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:47:55,357 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:47:55,407 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:48:27,491 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:48:27,973 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:48:28,024 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:48:28,050 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:48:28,071 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:48:28,091 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:48:28,164 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:48:28,210 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:48:28,267 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:48:28,296 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:48:28,345 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:48:28,401 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Header]
+2017-04-20 13:48:58,614 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:48:59,052 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:48:59,141 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:48:59,183 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:48:59,201 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:48:59,223 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:48:59,296 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:48:59,340 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:48:59,413 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:48:59,436 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:48:59,481 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:48:59,535 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:49:23,721 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:49:24,061 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:49:24,140 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:49:24,193 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:49:24,210 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:49:24,228 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:49:24,279 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:49:24,327 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:49:24,379 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:49:24,437 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:49:24,485 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:49:24,528 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Header]
+2017-04-20 13:51:15,975 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:51:16,980 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:51:17,039 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:51:17,123 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:51:17,135 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:51:17,149 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:51:17,254 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:51:17,331 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:51:17,476 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:51:17,490 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:51:17,582 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:51:17,624 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:51:31,885 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:51:32,208 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:51:32,246 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:51:32,265 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:51:32,275 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:51:32,285 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:51:32,366 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:51:32,402 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:51:32,448 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:51:32,465 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:51:32,499 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:51:32,534 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:52:37,191 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:52:37,595 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:52:37,656 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:52:37,685 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:52:37,695 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:52:37,706 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:52:37,789 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:52:37,829 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:52:37,884 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:52:37,905 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:52:37,938 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:52:37,967 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:57:09,144 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:57:09,779 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:57:09,822 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:57:09,839 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:57:09,851 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:57:09,861 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:57:09,950 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:57:10,011 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:57:10,060 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:57:10,072 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:57:10,108 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:57:10,143 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:58:51,710 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:58:52,357 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:58:52,442 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:58:52,464 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:58:52,479 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:58:52,495 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:58:52,550 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:58:52,608 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:58:52,695 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:58:52,715 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:58:52,762 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:58:52,821 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 13:59:55,834 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 13:59:56,899 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 13:59:57,046 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:59:57,170 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 13:59:57,248 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:59:57,299 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 13:59:57,429 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 13:59:57,648 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 13:59:57,874 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 13:59:57,903 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 13:59:57,986 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 13:59:58,115 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Header]
+2017-04-20 14:00:45,092 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 14:00:45,617 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 14:00:45,693 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:00:45,750 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 14:00:45,815 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 14:00:45,867 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 14:00:45,889 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 14:00:45,945 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 14:00:46,004 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Header]
+2017-04-20 14:05:34,792 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 14:05:35,362 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 14:05:35,468 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:05:35,527 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 14:05:35,579 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 14:05:35,632 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 14:05:35,652 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 14:05:35,727 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 14:05:35,770 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Header]
+2017-04-20 14:06:57,490 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 14:06:58,501 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 14:06:58,552 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:06:58,694 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 14:06:58,751 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 14:06:58,800 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 14:06:58,812 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 14:06:58,863 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 14:06:58,901 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 14:09:12,435 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 14:09:13,464 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 14:09:13,559 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:09:13,661 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 14:09:13,729 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 14:09:13,771 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 14:09:13,788 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 14:09:13,835 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 14:09:13,934 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 14:10:16,920 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 14:10:19,313 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 14:10:19,401 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:10:19,519 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 100
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 107
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 113
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 95
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 61
+2017-04-20 14:10:19,630 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 14:10:19,675 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 14:10:19,692 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 14:10:19,736 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 14:10:19,815 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 14:13:00,438 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 14:13:01,586 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 14:13:01,670 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:13:01,725 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.CommonLogMessage
+2017-04-20 14:13:01,871 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 101
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 108
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 114
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 96
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 62
+2017-04-20 14:13:01,985 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 14:13:02,063 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 14:13:02,092 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 14:13:02,182 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 14:13:02,247 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 14:14:33,617 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 14:14:34,183 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 14:14:34,233 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:14:34,258 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.CommonLogMessage
+2017-04-20 14:14:34,398 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 101
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 108
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 114
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 96
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 62
+2017-04-20 14:14:34,449 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 14:14:34,503 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 14:14:34,521 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 14:14:34,568 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 14:14:34,623 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 14:16:46,641 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 14:16:47,621 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 14:16:47,700 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:16:47,732 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.CommonLogMessage
+2017-04-20 14:16:47,839 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 101
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 108
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 114
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 96
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 62
+2017-04-20 14:16:47,938 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 14:16:47,982 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 14:16:47,999 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 14:16:48,040 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 14:16:48,078 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]
+[Header]
+2017-04-20 14:17:43,850 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - Application [ConsoleApp] Start
+2017-04-20 14:17:45,204 [1] DEBUG ConsoleApp.LoggingExample [(null)] <(null)> - This is a debug message
+2017-04-20 14:17:45,253 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:17:45,287 [1] INFO  ConsoleApp.LoggingExample [(null)] <(null)> - ConsoleApp.LogEx.CommonLogMessage
+2017-04-20 14:17:45,338 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - 这是另外一个Class
+2017-04-20 14:17:45,359 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:17:45,411 [1] INFO  ConsoleApp.AnotherClass [(null)] <(null)> - ConsoleApp.LogEx.ComplexFanLogMessage
+2017-04-20 14:17:45,493 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Exception thrown from method Bar
+System.ArithmeticException: Failed in Goo. Calling Foo. Inner Exception provided ---> System.Exception: This is an Exception
+   在 ConsoleApp.LoggingExample.Foo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 101
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 108
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ConsoleApp.LoggingExample.Goo() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 114
+   在 ConsoleApp.LoggingExample.Bar() 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 96
+   在 ConsoleApp.LoggingExample.Main(String[] args) 位置 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Tutorials\ConsoleApp\cs\src\LoggingExample.cs:行号 62
+2017-04-20 14:17:45,559 [1] ERROR ConsoleApp.LoggingExample [(null)] <(null)> - Hey this is an error!
+2017-04-20 14:17:45,676 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <(null)> - This should have an NDC message
+2017-04-20 14:17:45,704 [1] WARN  ConsoleApp.LoggingExample [NDC_Message] <auth-none> - This should have an MDC message for the key 'auth'
+2017-04-20 14:17:45,923 [1] WARN  ConsoleApp.LoggingExample [(null)] <auth-none> - See the NDC has been popped of! The MDC 'auth' key is still with us.
+2017-04-20 14:17:45,990 [1] INFO  ConsoleApp.LoggingExample [(null)] <auth-none> - Application [ConsoleApp] End
+[Footer]

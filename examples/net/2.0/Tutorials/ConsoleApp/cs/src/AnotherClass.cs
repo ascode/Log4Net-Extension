@@ -13,12 +13,12 @@ namespace ConsoleApp
 
         public AnotherClass() {
             log.Info("这是另外一个Class");
-            log.Info(new ConsoleApp.LogEx.ComplexFanLogMessage("aaa","bbb","ccc","","","","","",""));
+            log.Info(new ComplexFanLogMessage("aaa","bbb","ccc","","","","","",""));
             GetAJoke();
         }
 
         public void GetAJoke() {
-            log.Info(new ConsoleApp.LogEx.ComplexFanLogMessage("this is a joke", "this is second joke", "", "","","","","",""));
+            log.Info(new ComplexFanLogMessage("this is a joke", "this is second joke", "", "","","","","",""));
         }
     }
 }

@@ -50,13 +50,14 @@ namespace ConsoleApp
 			// Log an info level message
 			if (log.IsInfoEnabled) log.Info("Application [ConsoleApp] Start");
             
-			// Log a debug message. Test if debug is enabled before
-			// attempting to log the message. This is not required but
-			// can make running without logging faster.
-			if (log.IsDebugEnabled) log.Debug("This is a debug message");
-            log.Info(new LogEx.ComplexFanLogMessage("1entitySchemeName", "2entityID","3stringForOldEntity","4stringForNewEntity","5description","6className","7functionInCode","8userid","9deviceinfo"));
+            // Log a debug message. Test if debug is enabled before
+            // attempting to log the message. This is not required but
+            // can make running without logging faster.
+            if (log.IsDebugEnabled) log.Debug("This is a debug message");
+            log.Info(new ComplexFanLogMessage("1entitySchemeName", "2entityID","3stringForOldEntity","4stringForNewEntity","5description","6className","7functionInCode","8userid","9deviceinfo"));
+            log.Info(new CommonLogMessage("1entitySchemeName", "2entityID", "3stringForOldEntity", "4stringForNewEntity", "5description", "8deviceinfo", "9userid"));
             AnotherClass ac = new AnotherClass();
-			try
+            try
 			{
 				Bar();
 			}
