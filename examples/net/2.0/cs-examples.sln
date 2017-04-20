@@ -34,6 +34,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogEx", "..\..\..\modules\L
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{70BD5915-98CB-4741-BA42-B058DF744928}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{4B894C01-9D35-4909-B746-E335B50509CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogEx.ConsoleDemo", "..\..\..\demos\LogEx.ConsoleDemo\LogEx.ConsoleDemo.csproj", "{A96462F6-0F4A-4167-8F31-CCC04091852F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,11 +104,16 @@ Global
 		{A438F5FA-8907-41EF-8EC1-37AA5D789DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A438F5FA-8907-41EF-8EC1-37AA5D789DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A438F5FA-8907-41EF-8EC1-37AA5D789DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96462F6-0F4A-4167-8F31-CCC04091852F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96462F6-0F4A-4167-8F31-CCC04091852F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96462F6-0F4A-4167-8F31-CCC04091852F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96462F6-0F4A-4167-8F31-CCC04091852F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A438F5FA-8907-41EF-8EC1-37AA5D789DBF} = {70BD5915-98CB-4741-BA42-B058DF744928}
+		{A96462F6-0F4A-4167-8F31-CCC04091852F} = {4B894C01-9D35-4909-B746-E335B50509CF}
 	EndGlobalSection
 EndGlobal

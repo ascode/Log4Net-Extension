@@ -1,0 +1,8 @@
+C:\D\work\实验室\Log4Net-Extension\demos\LogEx.ConsoleDemo\bin\Debug\LogEx.ConsoleDemo.pdb
+C:\D\work\实验室\Log4Net-Extension\demos\LogEx.ConsoleDemo\bin\Debug\log4net.dll
+C:\D\work\实验室\Log4Net-Extension\demos\LogEx.ConsoleDemo\bin\Debug\LogEx.dll
+C:\D\work\实验室\Log4Net-Extension\demos\LogEx.ConsoleDemo\obj\Debug\LogEx.ConsoleDemo.csprojResolveAssemblyReference.cache
+C:\D\work\实验室\Log4Net-Extension\demos\LogEx.ConsoleDemo\obj\Debug\LogEx.ConsoleDemo.pdb
+C:\D\work\实验室\Log4Net-Extension\demos\LogEx.ConsoleDemo\bin\Debug\LogEx.ConsoleDemo.exe.config
+C:\D\work\实验室\Log4Net-Extension\demos\LogEx.ConsoleDemo\bin\Debug\LogEx.ConsoleDemo.exe
+C:\D\work\实验室\Log4Net-Extension\demos\LogEx.ConsoleDemo\obj\Debug\LogEx.ConsoleDemo.exe
