@@ -2,7 +2,7 @@
 ## 查看示例代码  
 打开解决方案：examples\net\2.0\cs-examples.sln可以看到更多的内容。    
 如果你无法上网，可以手动加入相关组件依赖。本解决方案中demos\LogEx.ConsoleDemo是手动加入LogEx和依赖的例子。  
-运行这个例子，您只需要在sql server数据库中执行ComplexFanLogMessage.cs和ComplexFanLog.sql创建两个表，然后按照您的数据库配置配置好type="log4net.Appender.AdoNetAppender"的appender节下面的connectionString节，就可以运行了，运行程序之后，您可以在数据库表log_common和log_common_fan中分别看到程序中记录的日志信息。  
+运行这个例子，您只需要在sql server数据库中执行CommonLog.sql和ComplexFanLog.sql创建两个表，然后按照您的数据库配置在App.config文件中配置好type="log4net.Appender.AdoNetAppender"的appender节下面的connectionString节，就可以运行了，运行程序之后，您可以在数据库表log_common和log_common_fan中分别看到程序中记录的日志信息。  
 
 ## 组件和版本  
 * .net 4.0  
