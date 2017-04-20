@@ -1,0 +1,5 @@
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleModule\cs\build\debug\SimpleModule.dll
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleModule\cs\build\debug\SimpleModule.pdb
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleModule\cs\src\obj\Debug\SimpleModule.csprojResolveAssemblyReference.cache
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleModule\cs\src\obj\Debug\SimpleModule.dll
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleModule\cs\src\obj\Debug\SimpleModule.pdb

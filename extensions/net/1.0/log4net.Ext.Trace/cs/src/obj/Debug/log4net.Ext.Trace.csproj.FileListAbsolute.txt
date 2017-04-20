@@ -1,0 +1,5 @@
+C:\D\work\实验室\Log4Net-Extension\extensions\net\1.0\log4net.Ext.Trace\cs\build\debug\log4net.Ext.Trace.dll
+C:\D\work\实验室\Log4Net-Extension\extensions\net\1.0\log4net.Ext.Trace\cs\build\debug\log4net.Ext.Trace.pdb
+C:\D\work\实验室\Log4Net-Extension\extensions\net\1.0\log4net.Ext.Trace\cs\src\obj\Debug\log4net.Ext.Trace.csprojResolveAssemblyReference.cache
+C:\D\work\实验室\Log4Net-Extension\extensions\net\1.0\log4net.Ext.Trace\cs\src\obj\Debug\log4net.Ext.Trace.dll
+C:\D\work\实验室\Log4Net-Extension\extensions\net\1.0\log4net.Ext.Trace\cs\src\obj\Debug\log4net.Ext.Trace.pdb

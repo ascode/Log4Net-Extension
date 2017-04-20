@@ -1,0 +1,7 @@
+C:\D\work\实验室\Log4Net-Extension\modules\LogEx\bin\Debug\LogEx.dll
+C:\D\work\实验室\Log4Net-Extension\modules\LogEx\bin\Debug\LogEx.pdb
+C:\D\work\实验室\Log4Net-Extension\modules\LogEx\bin\Debug\log4net.dll
+C:\D\work\实验室\Log4Net-Extension\modules\LogEx\bin\Debug\log4net.xml
+C:\D\work\实验室\Log4Net-Extension\modules\LogEx\obj\Debug\LogEx.csprojResolveAssemblyReference.cache
+C:\D\work\实验室\Log4Net-Extension\modules\LogEx\obj\Debug\LogEx.dll
+C:\D\work\实验室\Log4Net-Extension\modules\LogEx\obj\Debug\LogEx.pdb

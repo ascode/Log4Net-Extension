@@ -7,3 +7,6 @@ D:\work\实验室\Log4NetDemo\examples\net\2.0\Layouts\SampleLayoutsApp\cs\src\o
 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Layouts\SampleLayoutsApp\cs\src\obj\Debug\SampleLayoutsApp.csprojResolveAssemblyReference.cache
 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Layouts\SampleLayoutsApp\cs\src\obj\Debug\SampleLayoutsApp.exe
 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Layouts\SampleLayoutsApp\cs\src\obj\Debug\SampleLayoutsApp.pdb
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Layouts\SampleLayoutsApp\cs\build\debug\SampleLayoutsApp.exe.config
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Layouts\SampleLayoutsApp\cs\build\debug\SampleLayoutsApp.exe
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Layouts\SampleLayoutsApp\cs\build\debug\SampleLayoutsApp.pdb

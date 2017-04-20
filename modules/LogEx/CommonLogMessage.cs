@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
-using log4net.Core;
 
-namespace ConsoleApp.LogEx
+namespace LogEx
 {
-    class CommonLogMessage
+    public class CommonLogMessage
     {
         /// <summary>
         /// 数据表名
@@ -46,7 +46,8 @@ namespace ConsoleApp.LogEx
         /// <param name="description">描述</param>
         /// <param name="deviceInfo">终端设备</param>
         /// <param name="userid">用户id</param>
-        public CommonLogMessage(string entitySchemeName,string entityID, string stringForOldEntity,string stringForNewEntity,string description,string deviceInfo, string userid) {
+        public CommonLogMessage(string entitySchemeName, string entityID, string stringForOldEntity, string stringForNewEntity, string description, string deviceInfo, string userid)
+        {
             this.EntitySchemeName = entitySchemeName;
             this.EntityID = entityID;
             this.StringForOldEntity = stringForOldEntity;

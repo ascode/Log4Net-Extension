@@ -17,7 +17,8 @@
 //
 #endregion
 
-using ConsoleApp.LogEx;
+using LogEx;
+using ConsoleApp.LogMessage;
 
 // Configure log4net using the .config file
 [assembly: log4net.Config.XmlConfigurator(Watch=true)]

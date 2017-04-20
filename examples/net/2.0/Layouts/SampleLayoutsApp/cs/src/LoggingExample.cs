@@ -52,7 +52,7 @@ namespace SampleLayoutsApp
 			// attempting to log the message. This is not required but
 			// can make running without logging faster.
 			if (log.IsDebugEnabled) log.Debug("This is a debug message");
-            log.Info(new 
+            
 			log.Info("This is a long line of logging text. This should test if the LineWrappingLayout works. This text should be wrapped over multiple lines of output. Could you get a log message longer than this?");
 
 			log.Error("Hey this is an error!");

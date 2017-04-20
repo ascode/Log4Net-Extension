@@ -46,7 +46,7 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <OldToolsVersion>2.0</OldToolsVersion>
     <PublishUrl>发布\</PublishUrl>
     <Install>true</Install>
@@ -63,6 +63,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>..\build\debug\</OutputPath>
@@ -127,9 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnotherClass.cs" />
-    <Compile Include="LogEx\CommonLogMessage.cs" />
-    <Compile Include="LogEx\ComplexFanLogMessage.cs" />
-    <Compile Include="LogEx\CommonLayout.cs" />
+    <Compile Include="LogMessage\ComplexFanLogMessage.cs" />
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
@@ -143,7 +142,9 @@
     <Compile Include="LoggingExample.cs">
       <SubType>Code</SubType>
     </Compile>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -158,8 +159,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="LogEx\CommonLog.sql" />
-    <Content Include="LogEx\ComplexFanLog.sql" />
+    <Content Include="LogMessage\CommonLog.sql" />
+    <Content Include="LogMessage\ComplexFanLog.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\modules\LogEx\LogEx.csproj">
+      <Project>{a438f5fa-8907-41ef-8ec1-37aa5d789dbf}</Project>
+      <Name>LogEx</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

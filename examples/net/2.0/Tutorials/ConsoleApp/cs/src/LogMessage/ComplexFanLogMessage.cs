@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using LogEx;
 
-namespace ConsoleApp.LogEx
+namespace ConsoleApp.LogMessage
 {
     /// <summary>
     /// 这个类暂时用来包括全部可能用到的字段，这样没有对日志进行分类，可能造成时间久了之后的日志数据不够优化的问题，但是在前期从某种角度简化我们的编程

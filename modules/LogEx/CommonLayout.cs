@@ -6,8 +6,7 @@ using log4net.Layout.Pattern;
 using System.Reflection;
 using System.Collections;
 
-
-namespace ConsoleApp.LogEx
+namespace LogEx
 {
     public class CommonLayout : PatternLayout
     {
@@ -20,18 +19,18 @@ namespace ConsoleApp.LogEx
 
     public class ReflectionPatternConverter : PatternLayoutConverter
     {
-        protected override void Convert(System.IO.TextWriter writer,log4net.Core.LoggingEvent loggingEvent)
+        protected override void Convert(System.IO.TextWriter writer, log4net.Core.LoggingEvent loggingEvent)
         {
             if (Option != null)
             {
                 // 写入指定键的值
-                WriteObject(writer,loggingEvent.Repository,LookupProperty(Option,loggingEvent));
+                WriteObject(writer, loggingEvent.Repository, LookupProperty(Option, loggingEvent));
             }
 
             else
             {
                 // 写入所有关键值对
-                WriteDictionary(writer,loggingEvent.Repository,loggingEvent.GetProperties());
+                WriteDictionary(writer, loggingEvent.Repository, loggingEvent.GetProperties());
             }
 
         }
@@ -41,7 +40,7 @@ namespace ConsoleApp.LogEx
         /// </summary>
         /// <param name="property"></param>
         /// <returns></returns>
-        private object LookupProperty(string property,log4net.Core.LoggingEvent loggingEvent)
+        private object LookupProperty(string property, log4net.Core.LoggingEvent loggingEvent)
         {
             object propertyValue = string.Empty;
             PropertyInfo propertyInfo = loggingEvent.MessageObject.GetType().GetProperty(property);

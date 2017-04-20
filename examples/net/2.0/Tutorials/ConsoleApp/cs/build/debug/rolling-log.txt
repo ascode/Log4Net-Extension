@@ -1,3 +1,2 @@
-[Header]
-2017-04-20 14:17:45,990 [1] INFO  ConsoleApp.LoggingExample [(null)] - Application [ConsoleApp] End
-[Footer]
+[Header] 2017-04-20 15:01:13,012 [1] INFO  ConsoleApp.LoggingExample [(null)] - Application [ConsoleApp] End
+[Footer] 

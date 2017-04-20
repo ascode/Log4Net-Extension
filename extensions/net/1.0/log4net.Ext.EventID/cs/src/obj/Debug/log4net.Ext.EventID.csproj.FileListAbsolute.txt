@@ -1,0 +1,5 @@
+C:\D\work\实验室\Log4Net-Extension\extensions\net\1.0\log4net.Ext.EventID\cs\build\debug\log4net.Ext.EventID.dll
+C:\D\work\实验室\Log4Net-Extension\extensions\net\1.0\log4net.Ext.EventID\cs\build\debug\log4net.Ext.EventID.pdb
+C:\D\work\实验室\Log4Net-Extension\extensions\net\1.0\log4net.Ext.EventID\cs\src\obj\Debug\log4net.Ext.EventID.csprojResolveAssemblyReference.cache
+C:\D\work\实验室\Log4Net-Extension\extensions\net\1.0\log4net.Ext.EventID\cs\src\obj\Debug\log4net.Ext.EventID.dll
+C:\D\work\实验室\Log4Net-Extension\extensions\net\1.0\log4net.Ext.EventID\cs\src\obj\Debug\log4net.Ext.EventID.pdb

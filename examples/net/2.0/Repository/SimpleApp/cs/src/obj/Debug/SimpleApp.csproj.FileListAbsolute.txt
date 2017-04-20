@@ -1,0 +1,6 @@
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleApp\cs\src\obj\Debug\SimpleApp.csprojResolveAssemblyReference.cache
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleApp\cs\build\debug\SimpleApp.exe.config
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleApp\cs\build\debug\SimpleApp.exe
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleApp\cs\build\debug\SimpleApp.pdb
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleApp\cs\src\obj\Debug\SimpleApp.exe
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Repository\SimpleApp\cs\src\obj\Debug\SimpleApp.pdb

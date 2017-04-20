@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-using ConsoleApp.LogEx;
+using ConsoleApp.LogMessage;
 
 
 namespace ConsoleApp

@@ -1,5 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "Tutorials\ConsoleApp\cs\src\ConsoleApp.csproj", "{933969DF-2BC5-44E6-8B1A-400FC276A23F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotLogging", "Performance\NotLogging\cs\src\NotLogging.csproj", "{79B1930A-63AE-4640-B130-084687B3EDD7}"
@@ -27,6 +29,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLayoutsApp", "Layouts\SampleLayoutsApp\cs\src\SampleLayoutsApp.csproj", "{CD7A8094-D383-46BC-A75D-9F65F746E24F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WmiAppender", "Appenders\WmiAppender\cs\src\WmiAppender.csproj", "{BE56F892-37BA-489C-A91D-F2761FDB96EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogEx", "..\..\..\modules\LogEx\LogEx.csproj", "{A438F5FA-8907-41EF-8EC1-37AA5D789DBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{70BD5915-98CB-4741-BA42-B058DF744928}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,8 +96,15 @@ Global
 		{BE56F892-37BA-489C-A91D-F2761FDB96EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE56F892-37BA-489C-A91D-F2761FDB96EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE56F892-37BA-489C-A91D-F2761FDB96EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A438F5FA-8907-41EF-8EC1-37AA5D789DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A438F5FA-8907-41EF-8EC1-37AA5D789DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A438F5FA-8907-41EF-8EC1-37AA5D789DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A438F5FA-8907-41EF-8EC1-37AA5D789DBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A438F5FA-8907-41EF-8EC1-37AA5D789DBF} = {70BD5915-98CB-4741-BA42-B058DF744928}
 	EndGlobalSection
 EndGlobal

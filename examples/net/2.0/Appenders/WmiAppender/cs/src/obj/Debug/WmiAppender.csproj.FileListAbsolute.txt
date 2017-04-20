@@ -1,2 +1,6 @@
 D:\work\实验室\Log4NetDemo\examples\net\2.0\Appenders\WmiAppender\cs\src\obj\Debug\WmiAppender.csprojResolveAssemblyReference.cache
 C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Appenders\WmiAppender\cs\src\obj\Debug\WmiAppender.csprojResolveAssemblyReference.cache
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Appenders\WmiAppender\cs\bin\Debug\log4net.Appender.WmiAppender.dll
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Appenders\WmiAppender\cs\bin\Debug\log4net.Appender.WmiAppender.pdb
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Appenders\WmiAppender\cs\src\obj\Debug\log4net.Appender.WmiAppender.dll
+C:\D\work\实验室\Log4Net-Extension\examples\net\2.0\Appenders\WmiAppender\cs\src\obj\Debug\log4net.Appender.WmiAppender.pdb
