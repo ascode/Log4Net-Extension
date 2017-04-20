@@ -54,7 +54,8 @@ namespace ConsoleApp
 			// attempting to log the message. This is not required but
 			// can make running without logging faster.
 			if (log.IsDebugEnabled) log.Debug("This is a debug message");
-            log.Info(new LogEx.UpdateLogMessage("jifnei", "jjj","askjdlfk","fjeiojfe"));
+            log.Info(new LogEx.ComplexFanLogMessage("1entitySchemeName", "2entityID","3stringForOldEntity","4stringForNewEntity","5description","6className","7functionInCode","8userid","9deviceinfo"));
+            AnotherClass ac = new AnotherClass();
 			try
 			{
 				Bar();
