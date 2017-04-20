@@ -1,4 +1,4 @@
-# Log4Net-Extension  
+# Log4Net-Extension更名为LogEx    
 ## 查看示例代码  
 打开解决方案：examples\net\2.0\cs-examples.sln可以看到更多的内容。    
 如果你无法上网，可以手动加入相关组件依赖。本解决方案中demos\LogEx.ConsoleDemo是手动加入LogEx和依赖的例子。  
